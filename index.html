@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,102 +6,109 @@
   <title>Cultural Journey Collage</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-50 p-8">
-  <div class="grid grid-cols-3 gap-6">
-    <!-- Ghana roots -->
-    <div class="flex flex-col items-center justify-center p-4 bg-white shadow rounded-2xl">
-      <img src="images/gha-image.jpg" alt="Ghana Roots" class="w-25 h-25 mb-2" />
-      <p>Ghana Roots. Every Ghananian has a day name mine is Kwaku, which means I was born on Wednesday.</p>
+<body class="bg-gray-50 p-0 sm:p-4">
+
+  <!-- Sticky Header -->
+  <header class="sticky top-0 bg-white shadow-md p-4 flex items-center justify-center z-50">
+    <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 text-center">
+      🌍 Prime's Cultural Journey Collage
+    </h1>
+  </header>
+
+  <!-- Collage Grid -->
+  <main class="p-6">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Ghana roots -->
+      <div class="flex flex-col items-center justify-center p-4 bg-white shadow rounded-2xl">
+        <img src="images/gha-image.jpg" alt="Ghana Roots" class="w-24 h-24 mb-2 object-cover rounded-xl" />
+        <p class="text-center">Ghana Roots. Every Ghanaian has a day name; mine is Kwaku, meaning born on Wednesday.</p>
+      </div>
+
+      <!-- Family -->
+      <div class="flex flex-col items-center justify-center p-4 bg-white shadow rounded-2xl">
+        <img src="images/family.png" alt="Family" class="w-24 h-24 mb-2 object-cover rounded-xl" />
+        <p class="text-center">👨‍👩‍👦 Family is my all.</p>
+      </div>
+
+      <!-- Faith -->
+      <div class="flex flex-col items-center justify-center p-4 bg-white shadow rounded-2xl">
+        <img src="images/faith-sunset.jpg" alt="Faith" class="w-24 h-24 mb-2 object-cover rounded-xl" />
+        <p class="text-center">✝️ Faith in Christ Jesus and his second coming.</p>
+      </div>
+
+      <!-- Soccer -->
+      <div class="flex flex-col items-center justify-center p-4 bg-white shadow rounded-2xl">
+        <img src="images/soccerG.jpg" alt="Soccer" class="w-24 h-24 mb-2 object-cover rounded-xl" />
+        <p class="text-center">⚽ Soccer is the game I love playing.</p>
+      </div>
+
+      <!-- Arsenal -->
+      <div class="flex flex-col items-center justify-center p-4 bg-white shadow rounded-2xl">
+        <img src="images/Arsenal.jpg" alt="Arsenal" class="w-24 h-24 mb-2 object-cover rounded-xl" />
+        <p class="text-center">🔴⚪ A big fan of Arsenal F.C. — the Gooners!</p>
+      </div>
+
+      <!-- Music -->
+      <div class="flex flex-col items-center justify-center p-4 bg-white shadow rounded-2xl">
+        <img src="images/music-earth.jpg" alt="Music" class="w-24 h-24 mb-2 object-cover rounded-xl" />
+        <p class="text-center">🎹 Music gives me comfort and inner peace.</p>
+      </div>
+
+      <!-- Tech -->
+      <div class="flex flex-col items-center justify-center p-4 bg-white shadow rounded-2xl">
+        <img src="images/cyber.jpg" alt="Tech" class="w-24 h-24 mb-2 object-cover rounded-xl" />
+        <p class="text-center">💻 Tech (CS/Cybersecurity). The knowledge is transferable, so I hold on tight.</p>
+      </div>
+
+      <!-- Nursing -->
+      <div class="flex flex-col items-center justify-center p-4 bg-white shadow rounded-2xl">
+        <img src="images/nurse.png" alt="Nursing" class="w-24 h-24 mb-2 object-cover rounded-xl" />
+        <p class="text-center">🩺 Nursing </p>
+      </div>
+
+      <!-- Education -->
+      <div class="flex flex-col items-center justify-center p-4 bg-white shadow rounded-2xl">
+        <img src="images/educa.jpg" alt="Education" class="w-24 h-24 mb-2 object-cover rounded-xl" />
+        <p class="text-center">🎓 Education is the bit of knowledge I gain every day — my backbone.</p>
+      </div>
+
+      <!-- Community -->
+      <div class="flex flex-col items-center justify-center p-4 bg-white shadow rounded-2xl">
+        <img src="images/community.jpg" alt="Community" class="w-24 h-24 mb-2 object-cover rounded-xl" />
+        <p class="text-center">🤝 Community makes me feel at home everywhere.</p>
+      </div>
+
+      <!-- Travel -->
+      <div class="flex flex-col items-center justify-center p-4 bg-white shadow rounded-2xl">
+        <img src="images/first-time-travel.jpg" alt="Journey Abroad" class="w-24 h-24 mb-2 object-cover rounded-xl" />
+        <p class="text-center">✈️ Journey Abroad opened my eyes to new perspectives and cultures.</p>
+      </div>
+
+      <!-- Entrepreneurship -->
+      <div class="flex flex-col items-center justify-center p-4 bg-white shadow rounded-2xl">
+        <img src="images/MH-LOGOSC.png" alt="Entrepreneurship (Mhaid)" class="w-24 h-24 mb-2 object-cover rounded-xl" />
+        <p class="text-center">🔧 Entrepreneurship (Mhaid). I dream of starting a company one day — this is the start.</p>
+      </div>
+
+      <!-- Strength -->
+      <div class="flex flex-col items-center justify-center p-4 bg-white shadow rounded-2xl">
+        <img src="images/strength.png" alt="Strength" class="w-24 h-24 mb-2 object-cover rounded-xl" />
+        <p class="text-center">🏋🏽 Strength ----</p>
+      </div>
+
+      <!-- Growth Tree -->
+      <div class="flex flex-col items-center justify-center p-4 bg-white shadow rounded-2xl">
+        <img src="images/growth.png" alt="Growth" class="w-24 h-24 mb-2 object-cover rounded-xl" />
+        <p class="text-center">🌳 Growth</p>
+      </div>
     </div>
 
-    <!-- Family -->
-    <div class="flex flex-col items-center justify-center p-4 bg-white shadow rounded-2xl">
-      <img src="images/family.png" alt="Family" class="w-25 h-25 mb-2" />
-      <p>👨‍👩‍👦 Family is my all</p>
+    <!-- Caption -->
+    <div class="mt-8 text-center max-w-2xl mx-auto">
+      <p class="text-lg text-gray-700 italic">
+        "This collage represents my journey from Ghana to the U.S., guided by family, faith, and education. Soccer, music, and entrepreneurship reflect my passions, while my transition from tech to nursing highlights resilience and growth."
+      </p>
     </div>
-
-    <!-- Faith -->
-    <div class="flex flex-col items-center justify-center p-4 bg-white shadow rounded-2xl">
-      <img src="images/faith-sunset.jpg" alt="Faith" class="w-25 h-25 mb-2" />
-      <p>✝️ Faith in Christ Jesus and his second coming.</p>
-    </div>
-
-    <!-- Soccer -->
-    <div class="flex flex-col items-center justify-center p-4 bg-white shadow rounded-2xl">
-      <img src="images/soccerG.jpg" alt="Soccer" class="w-25 h-25 mb-2" />
-      <p>⚽ Soccer is the game I love playing.</p>
-    </div>
-
-    <!-- Arsenal -->
-    <div class="flex flex-col items-center justify-center p-4 bg-white shadow rounded-2xl">
-      <img src="images/Arsenal.jpg" alt="Arsenal" class="w-25 h-25 mb-2" />
-      <p>🔴⚪ A big fun of Arsenal F.C.. The gooners!</p>
-    </div>
-
-    <!-- Music -->
-    <div class="flex flex-col items-center justify-center p-4 bg-white shadow rounded-2xl">
-      <img src="images/music-earth.jpg" alt="Music" class="w-25 h-25 mb-2" />
-      <p>🎹 Music is give me comfort, and inner peace. </p>
-    </div>
-
-    <!-- Tech -->
-    <div class="flex flex-col items-center justify-center p-4 bg-white shadow rounded-2xl">
-      <img src="images/cyber.jpg" alt="Tech" class="w-25 h-25 mb-2" />
-      <p>💻 Tech (CS/Cybersecurity). The knowledge from that fild is transferable so i hold on tight. </p>
-    </div>
-
-    <!-- Nursing -->
-    <div class="flex flex-col items-center justify-center p-4 bg-white shadow rounded-2xl">
-      <img src="images/nurse.png" alt="Nursing" class="w-25 h-25 mb-2" />
-      <p>🩺 Nursing ...</p>
-    </div>
-
-    <!-- Education -->
-    <div class="flex flex-col items-center justify-center p-4 bg-white shadow rounded-2xl">
-      <img src="images/educa.jpg" alt="Education" class="w-25 h-25 mb-2" />
-      <p>🎓 Education is the bit of knowledge i gain everyday and that is my back bone.</p>
-    </div>
-
-    <!-- Community -->
-    <div class="flex flex-col items-center justify-center p-4 bg-white shadow rounded-2xl">
-      <img src="images/community.jpg" alt="Community" class="w-25 h-25 mb-2" />
-      <p>🤝 Community makes me feel like home everywhere.</p>
-    </div>
-
-    <!-- Travel -->
-    <div class="flex flex-col items-center justify-center p-4 bg-white shadow rounded-2xl">
-      <img src="images/first-time-travel.jpg" alt="Journey Abroad" class="w-25 h-25 mb-2" />
-      <p>✈️ Journey Abroad opens my eye to new perspectives and understanding of culcures. </p>
-    </div>
-
-    <!-- Entrepreneurship -->
-    <div class="flex flex-col items-center justify-center p-4 bg-white shadow rounded-2xl">
-      <img src="images/MH-LOGOSC.png" alt="Entrepreneurship (Mhaid)" class="w-25 h-25 mb-2" />
-      <p>🔧 Entrepreneurship (Mhaid). I dreame so start a company one day. So this is a start. </p>
-    </div>
-
-    <!-- Strength -->
-    <div class="flex flex-col items-center justify-center p-4 bg-white shadow rounded-2xl">
-      <img src="images/strength.png" alt="Strength" class="w-25 h-25 mb-2" />
-      <p>🏋🏽 Strength</p>
-    </div>
-
-    <!-- Growth Tree -->
-    <div class="flex flex-col items-center justify-center p-4 bg-white shadow rounded-2xl">
-      <img src="images/growth.png" alt="Growth" class="w-25 h-25 mb-2" />
-      <p>🌳 Growth</p>
-    </div>
-  </div>
-
-  <div class="mt-8 text-center max-w-2xl mx-auto">
-    <p class="text-lg text-gray-700 italic">
-      "This collage represents my journey from Ghana to the U.S., guided by family, faith, and education. Soccer, music, and entrepreneurship reflect my passions, while my transition from tech to nursing highlights resilience and growth."
-    </p>
-  </div>
+  </main>
 </body>
 </html>
-
-
-<!--👉 Save this as **`index.html`**.
-Make a folder called `images` and drop in your PNGs/JPGs (ghana.png, family.png, nursing.png, etc.).
-Then just open `index.html` in your browser and you’ll see your collage ready to present.-->
